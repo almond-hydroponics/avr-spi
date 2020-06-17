@@ -7,17 +7,14 @@
 #define F_CPU 8000000UL // 8MHz
 #endif
 
-
 //#define DD_MISO   B,4
 //#define DD_MOSI   B,3
 //#define DD_SCK    B,5
 //#define DD_SS     B,2
 
-
 #include <avr/io.h>
 //#include <stdlib.h>
 //#include <util/delay.h>
-
 
 void spi_init_slave(void)
 {
